@@ -54,21 +54,21 @@ function ItemForm(props){
                     <div className={styles.form_row}>
                         <div>
                             <label htmlFor="amount">Paino:</label>
-                            <input type="number" name="amount" step="0.01" onChange={handleChange} values={values.amount} required/>
+                            <input type="number" name="weight" step="0.01" onChange={handleChange} values={values.weight} required/>
                         </div>
                         <div>
                             <label htmlFor="paymentDate">Pituus:</label>
-                            <input type="number" name="amount" step="0.01" onChange={handleChange} values={values.amount} required/>
+                            <input type="number" name="length" step="0.01" onChange={handleChange} values={values.length} required/>
                         </div>
                     </div>
                     <div className={styles.form_row}>
                         <div>
                             <label htmlFor="periodStart">Mistä saatu:</label>
-                            <input type="number" name="amount" step="0.01" onChange={handleChange} values={values.amount} required/>
+                            <input type="number" name="whereFrom" step="0.01" onChange={handleChange} values={values.whereFrom} required/>
                         </div>
                         <div>
                             <label htmlFor="periodEnd">Milloin saatu:</label>
-                            <input type="date" name="periodEnd" onChange={handleChange} values={values.catchDate}/>
+                            <input type="date" name="catchDate" onChange={handleChange} values={values.catchDate}/>
                         </div>
                     </div>
                     <div className={styles.form_row}>
